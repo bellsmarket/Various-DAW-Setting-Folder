@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bundle xmlns:cpl="http://www.smpte-ra.org/schemas/429-7/2006/PL_" xmlns:dcml="dcmlTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schemas/pxf-bundle.xsd">
+
+  <Id>urn:uuid:e87dfcdb-4da2-4ce7-8f74-ba1afe4c12dd</Id>
+
+  <AnnotationText>Click</AnnotationText>
+
+  <Creator>Avid PXF SDK 2.1</Creator>
+
+  <DataModelVersion>2.0</DataModelVersion>
+
+  <IssueDate>2019-11-23T12:38:25+00:00</IssueDate>
+
+  <VersionList>
+    <Version>
+      <Id>urn:uuid:5871f523-7bac-4c59-adfa-5164ee451e3f</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:1b3642d8-225d-44b8-a28b-fcba857e77ad</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+    <Version>
+      <Id>urn:uuid:10ce2ebe-3512-4802-a0c3-b406fb22bb77</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:204d0fa9-3c43-4d47-bf0b-3f5b70785c22</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+    <Version>
+      <Id>urn:uuid:ee12299b-3c2b-4856-852d-8826f6687403</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:5292d787-ef97-45c4-bce0-6b5bf2966765</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+  </VersionList>
+
+  <AssetLinks>
+    <Asset>
+      <Id>urn:uuid:5292d787-ef97-45c4-bce0-6b5bf2966765</Id>
+      <ReferencedAssetId>urn:uuid:db2d6001-5d46-45f8-999b-f0164545f8c7</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:a2e8b365-7a0f-44c3-8786-417b72c11a9b</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:f9ac13c4-ecbb-468e-b08a-1735864d760f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:5263a181-50a5-426c-9dfd-7b6779664b2d</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:dc3eb2fe-5b75-4010-ac4b-576c5b69bca7</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:8e78e853-9b65-4a12-968c-0e6c34636889</ReferencedAssetId>
+    </Asset>
+  </AssetLinks>
+
+</Bundle>

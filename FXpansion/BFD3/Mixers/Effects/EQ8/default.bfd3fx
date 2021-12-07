@@ -1,0 +1,39 @@
+<root active="true" stereo="false" effect="EQ8" presetName="default">
+    <VValue name="Active" type="string" value="On" />
+    <VValue name="LP-Bell" type="string" value="off" />
+    <VValue name="HP-Bell" type="string" value="off" />
+    <VValue name="Sidechain" type="string" value="off" />
+    <VValue name="Mix" type="string" value="100 %" />
+    <VValue name="Band1-Q" type="string" value="2.000" />
+    <VValue name="Band1-Freq" type="string" value="50.00 Hz" />
+    <VValue name="Band1-Gain" type="string" value="0 dB" />
+    <VValue name="Band1-In" type="string" value="off" />
+    <VValue name="Band2-Q" type="string" value="2.000" />
+    <VValue name="Band2-Freq" type="string" value="100.00 Hz" />
+    <VValue name="Band2-Gain" type="string" value="0 dB" />
+    <VValue name="Band2-In" type="string" value="off" />
+    <VValue name="Band3-Q" type="string" value="2.000" />
+    <VValue name="Band3-Freq" type="string" value="200.00 Hz" />
+    <VValue name="Band3-Gain" type="string" value="0 dB" />
+    <VValue name="Band3-In" type="string" value="off" />
+    <VValue name="Band4-Q" type="string" value="2.000" />
+    <VValue name="Band4-Freq" type="string" value="400.00 Hz" />
+    <VValue name="Band4-Gain" type="string" value="0 dB" />
+    <VValue name="Band4-In" type="string" value="off" />
+    <VValue name="Band5-Q" type="string" value="2.000" />
+    <VValue name="Band5-Freq" type="string" value="800.00 Hz" />
+    <VValue name="Band5-Gain" type="string" value="0 dB" />
+    <VValue name="Band5-In" type="string" value="off" />
+    <VValue name="Band6-Q" type="string" value="2.000" />
+    <VValue name="Band6-Freq" type="string" value="1.60 kHz" />
+    <VValue name="Band6-Gain" type="string" value="0 dB" />
+    <VValue name="Band6-In" type="string" value="off" />
+    <VValue name="Band7-Q" type="string" value="2.000" />
+    <VValue name="Band7-Freq" type="string" value="3.20 kHz" />
+    <VValue name="Band7-Gain" type="string" value="0 dB" />
+    <VValue name="Band7-In" type="string" value="off" />
+    <VValue name="Band8-Q" type="string" value="2.000" />
+    <VValue name="Band8-Freq" type="string" value="6.40 kHz" />
+    <VValue name="Band8-Gain" type="string" value="0 dB" />
+    <VValue name="Band8-In" type="string" value="off" />
+</root>

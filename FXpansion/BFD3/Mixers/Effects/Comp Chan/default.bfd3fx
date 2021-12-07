@@ -1,0 +1,9 @@
+<root active="true" stereo="false" effect="Comp Chan" presetName="default">
+    <VValue name="Active" type="string" value="On" />
+    <VValue name="Input" type="string" value="0.0 dB" />
+    <VValue name="Attack" type="string" value="800 us" />
+    <VValue name="Release" type="string" value="100 ms" />
+    <VValue name="Ratio" type="string" value="4" />
+    <VValue name="Output" type="string" value="0.0 dB" />
+    <VValue name="Wet Mix" type="string" value="100 %" />
+</root>

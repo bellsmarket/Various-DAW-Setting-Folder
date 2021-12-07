@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kPropDriverIOMap>
+  <kPropDriverIOMapInput>
+    <IOMapEntry hwID="0" hwType="" name="None (2)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE/HIZ 1"
+                channelType="MicLineHiZ" channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE/HIZ 2" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE 3" channelType="MicLine"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE 4" channelType="MicLine"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MIC/LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 1" channelType="ADAT"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 2" channelType="ADAT"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 3" channelType="ADAT"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 4" channelType="ADAT"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 5" channelType="ADAT"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 6" channelType="ADAT"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 7" channelType="ADAT"
+                channel="7"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 8" channelType="ADAT"
+                channel="8"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 7" channelType="Virtual"
+                channel="7"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 8" channelType="Virtual"
+                channel="8"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="AUX1 L" channelType="Aux"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="AUX1 R" channelType="Aux"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="AUX2 L" channelType="Aux"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="AUX2 R" channelType="Aux"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MON R" channelType="Mon"
+                channel="2"/>
+  </kPropDriverIOMapInput>
+  <kPropDriverIOMapOutput>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 1" channelType="Line"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 2" channelType="Line"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 3" channelType="Line"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 4" channelType="Line"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 1" channelType="ADAT"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 2" channelType="ADAT"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 3" channelType="ADAT"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 4" channelType="ADAT"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 5" channelType="ADAT"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 6" channelType="ADAT"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 7" channelType="ADAT"
+                channel="7"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="ADAT 8" channelType="ADAT"
+                channel="8"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 7" channelType="Virtual"
+                channel="7"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="VIRTUAL 8" channelType="Virtual"
+                channel="8"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE1 L" channelType="Cue"
+                channel="1"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE1 R" channelType="Cue"
+                channel="2"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE2 L" channelType="Cue"
+                channel="3"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE2 R" channelType="Cue"
+                channel="4"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE3 L" channelType="Cue"
+                channel="5"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE3 R" channelType="Cue"
+                channel="6"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE4 L" channelType="Cue"
+                channel="7"/>
+    <IOMapEntry hwID="198397345" hwType="Apollo 8p" name="CUE4 R" channelType="Cue"
+                channel="8"/>
+  </kPropDriverIOMapOutput>
+</kPropDriverIOMap>

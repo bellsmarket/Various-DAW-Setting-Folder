@@ -1,0 +1,8 @@
+<root active="true" stereo="true" effect="DCAM EnvShaper" presetName="default">
+    <VValue name="Active" type="string" value="1.000000" />
+    <VValue name="Mix" type="string" value="1.000000" />
+    <VValue name="Attack" type="string" value="0.500000" />
+    <VValue name="Sustain" type="string" value="0.500000" />
+    <VValue name="Signal Bias" type="string" value="0.500000" />
+    <VValue name="Sidechain" type="string" value="0.000000" />
+</root>

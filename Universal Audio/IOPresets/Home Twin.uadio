@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kPropDriverIOMap version="1">
+  <kPropDriverIOMapInput>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MIC/LINE/HIZ 1"
+                channelType="MicLineHiZ" channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MIC/LINE 2"
+                channelType="MicLineHiZ" channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="S/PDIF L" channelType="SPDIF"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="S/PDIF R" channelType="SPDIF"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="AUX1 L" channelType="Aux"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="AUX1 R" channelType="Aux"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="AUX2 L" channelType="Aux"
+                channel="3"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="AUX2 R" channelType="Aux"
+                channel="4"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="TALKBACK 1"
+                channelType="Talkback" channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="TALKBACK 2"
+                channelType="Talkback" channel="2"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+  </kPropDriverIOMapInput>
+  <kPropDriverIOMapOutput>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="LINE 3" channelType="Cue"
+                channel="3"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="LINE 4" channelType="Cue"
+                channel="4"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="HP L" channelType="Cue"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="HP R" channelType="Cue"
+                channel="2"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+    <IOMapEntry hwID="" hwType="" name="" channelType="" channel="0"/>
+  </kPropDriverIOMapOutput>
+</kPropDriverIOMap>

@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uad_mixer_session>
+  <console_settings version="1"/>
+  <mixer_tree version="3">
+    <mixer_object type="kRoot" relative_index="0" version="1">
+      <property id="kPropName" type="kPTString">Root</property>
+      <property id="kPropConverterMode" type="kPTInt">0</property>
+      <property id="kPropTempo" type="kPTFloat">120</property>
+      <property id="kPropVirtualSoundCheck" type="kPTInt64">18446744073709551615</property>
+      <property id="kPropVirtualSoundCheckEnable" type="kPTBoolean">0</property>
+      <mixer_object type="kMixer" relative_index="0" version="3">
+        <property id="kPropName" type="kPTString">Mixer</property>
+        <property id="kPropDeviceHwID" type="kPTInt64">9223372037071488383</property>
+        <property id="kPropMixerTypeId" type="kPTInt">2</property>
+        <property id="kPropAux1SendPostFader" type="kPTBoolean">1</property>
+        <property id="kPropAux2SendPostFader" type="kPTBoolean">1</property>
+        <mixer_object type="kInput" relative_index="0" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropCustomIntegratedPreampName" type="kPTString"></property>
+          <property id="kPropCustomIntegratedPreampPower" type="kPTBoolean">0</property>
+          <property id="kPropIOType" type="kPTInt">0</property>
+          <property id="kPropFWSynchIn" type="kPTInt">0</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">-6.02235</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">1</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropGain" type="kPTFloat">11</property>
+          <property id="kProp48VEnable" type="kPTBoolean">0</property>
+          <property id="kPropImpedance" type="kPTInt">9200</property>
+          <property id="kPropLowCut" type="kPTBoolean">0</property>
+          <property id="kPropPad" type="kPTBoolean">0</property>
+          <property id="kPropHiZImpedance" type="kPTInt">1000000</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="1" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <preamp_effect version="1">
+            <plugin_unique_id>42424155</plugin_unique_id>
+            <plugin_name>UAD Neve 88RS</plugin_name>
+            <plugin_state>7212.CMlaKA....fQBMDZ....AHjPAUE...P.....f.............................................................................................................................................................................vFLF..........f....D..........DUlYgUGazA....................................3O....+..vWxC........................................................f+............................fDn9.......ZmwO.....b.s.7C........f+....9C.v0wO.PyL+...............+....7C...vO....+....7C...vO....+....7C...............v.97yO....+.....P..........nTZs0VdfPza0cFagM2bszTXyQWYxIVcyA...................7C..........................................v+a86iCzitO...f+bfdz7C...3Ov+ac9....9C+.PBO.....nKvkyC.....4+6l9.....f.LrtO.........9C...3O6udL+j+nv7C...3O...f+.f3Z7CAtdzO.....3+dT7C..........f.Hk7yEXOhO..............3O6uyO+....7C...3OA.........fRD0hTuwFao4FHRklckIGHME1bzUlb.................9C...vOCvLi9.........3O.....L8S31C...............vP..aO...f+.........3O..............3OweTX9.....P721sO.....bf5D8C.....zegf9....9C...3O...f+....7C...vO...f+....9i9IbwO6udL+.....f+YlwO..........f+6QwOKfBm9................r+N+7C...vO...f+D..........JQTKNARURAhQgMVYfX0aiEFa......................3O....+.+u02C..............9iDPEdO...f+7+cT3C.....CA.r8....9C........f+..............f+j9Ib4C.....j.Fs8......+u0qO.....H.Cq6C........f+....9C98+wO8OyL+...........GnGE+X.1i8C......HtF+j+nv5C.....7GEN+D+Qg6C...3O...f+....9C+wczOS.+x8....9S..........nDQsHTYkYFHUAGHTgVZtAhUuMVXrA.................f+....7C7+VeO..............3OR.U38................LD.v1C...3O.........9C..............9S5mvkO.....HALZ4C........f+....9i.LrtO...f+....9C...3OBfTP+P.jh7C..........Pfqm7S9iB0O.....fev07C..........X.1i7C...fO...f+.........3O7G2Q+L.rY5C...3OA.........fRD0hRo0Va4ABQfPUYrUFbn8lakA...................9C...vOx+Ly8..............f+....9C...3O...f+.....vP..aO...f+.........3O................oeBW9......IfQaO.....v+a85C.....Bvv59..............f+L.B27S9+NRO..........v.pG0O.....D8Og2i.pvyO.viB+.....v+2QgOKvdz9....9C...3O.....HfJj7CBvhrO...f+D..........JQTKWElbsAhQrUmYlkGHKk1XqA..........................+D.hq5C.....................................CA.r8....9C........f+..............f+L7Ct1C...............v9aIvO.....H.Cq6C..............9C.........+...........Qfbc9....7C...vOGfYl9T+Dt6C...vO62LK+3.8n5C...3O...f+.....vAX1yO....+....9S..........nDQsPUZsIVXrElajAxRoM1Z.............................7S.HtpO.........................9y8W8fO.....LD.v1C...3O.........9C...............vvO3ZO................6uk.+.....f.LrtO..............3O.Pb89....7C.............f7C...vO....+Lf5w7C..........Xf8H8y4OlgO................H.fK+....7C...3OA.........fRD0xTk4VXz8lbfnTZsAhPgM2bfTTT......................vO..........................................vP..aO...f+.........3O..........................ffAP.O.....r.B86C.....Bvv59.........3O...f+....7C...vO...f+....9C.hqwO....+....7y9MyxO..........fAXOzOOvGk9................r+N+7C...vO...f+D..........JQTKHkFbn8Fbf.UZg41a..........................3O....+....................9iAXOxO................CA.r8....9C........f+..............f+..w05C.....Hf0.+....9yBHzuO.....H.Cq6C...3O...f+....9i9mvyO....+....9C...3OweTX9P.jB6C...vO...f9....7S.HtlOUfLS9....7C...............v967yO....+....9S..........nDQsPEZoM1Zf.UXjARQtgVXtMVYxA.................f+....7i7OybO..............3OFf8H+....9C...vO.....LD.v1C...3O.........9C..............9C.DWqO.....f.VC7C...3OKfP+9.....f.LrtO...f+....9C...3Ozunf9....7C...3O...f+.+u02CAPJrOiegK9fAXO3C...3OAf3Z9TAxL4C...vO................6uyO+3+sJ6C...3OA.........fRD0xUu8Fa4AhQgQGHEwVYiAxQ0kFcgIG..............9C...vOT+0i8.........................3OGnGE+.....vP..aO...f+.........3O..............3OH.Rg9.....v3usiO.....7.l+5C.....Bvv59.........3O...f+3+sd7C...vO...f+....9S..WyO.HtF+....7S.hBwO....+.....f9Ib0Oxuv09................7+4f6C...vO...f+D..........A4FYxU1cfPTX2M2at0hTgAGHAQFaoI1b....................+....................9yzOgaO...f+7eWO8C.....CA.r8....9C........f+..............f+D+Qg4C.....9G8c+......BXskO...f+f++I8C........f+....9i+25yOOvG09....9C.....Kvdz9HfYl8i.pvwOKfBm9Pfqm7iCvLiOH.Rw9P+S35C...3O..........v967yO....+....9S..........DDQsHUXvABSkEFYfX0a3A...............................7C...................3OS+Dt8....9i+YlwO.....LD.v1C...3O.........9C..............9yC35gO.....P..+5C.....Hf0V9......9+mzO.........9C...3O....+....7C..........jegq7i9IbyOff..9r+5Q7C+Qg0O....+f.HE6C8OgqO...f+...........6uyO+....7C...3OA.........PPD0BSkEFYfXDHV8FdfTTT..............................vO...................f+D9AW4C...3OKvdj9.....vP..aO...f+.........3O..........................ffAP.O.....r.B86C.....Bvv59.........3O...f+L.yr7y.LyzO..........P9mYlOH3iR+j+nv7i.HExO...f+j9Ib4S8WOpO....+....9C..........r+N+7C...vO...f+D..........AQTKLUVXjAhQfX0a3ARQQAhIfLzasAG.....................+....................9S3GbkO...f+r.6Q5C.....CA.r8....9C........f+..............f+DBjq2C.....D35Y+.......NVyO.........9C..............9y.LyxOCvLS+...........4elY9ffOJ8S9iByOBfTH+....9S5mvkO0e8n9....7C...3O..........v967yO....+....9S..........DDQsfCL3.xRt81XqA...................................7C...................3O3uQw9................LD.v1C...3O.........9C..........................HX.DvC.....KfP+9.....f.LrtO.........9C...3Ox+Ly9....7C...3O.....L.yL8i5udjOD.of93e0C8idfOROD.of9D+Qg4i3OJbO................6uyO+....7C...3OA.........PPD0xRoM1Zf.UctMFZkIG............................9aTrO...................f+r.6Q6C...3OH.RA9....9C......3QI+................r.Jb5C...3O4W3J+......82DiO.....7.7z4C.....++im9....9C........f+....7C...vO..........fGv0iO....+b.lY5C...3O.........7C...3ON.yL9................j+mz6C...vO...f+D..........AQTKS4VXxUFHB8Fcz8Va................................+....................9C8OguO...f+H+yL4C.....CA.r8....9C........f+..............f+zA5Q4C.....FXOZ+.....vCTmnO...f+H.Cq6C........f+....9C...vO....+...........Gv0i9...f7S+yL0O9eqG+v7Wg0C.7nnO....+....7C...............v967yO....+....9S..........DDQsPjb00FHOgDHl.hTu8VayA.....................f+....7C...................3Oj+Yl8....9C..........LD.v1C...3O.........9C..............9S9mYlO.........9C.....o+kL9.....v.Na0O.........9C...3O....+....7C..........P+S35C+Qg2O....+....6CAPJrOd.WO9Xf8n7S9iBuO...f+.........3O6uyO+7.YM6C...3OA.........PPD0RPi8VcyQWZiABToElauA............................vO..............................3O...v9.....vP..aO...f+.........3O..............3O4.8n8.....v+yJ2O.....D+mV5C...3O...f+.........3O...f+D+fq5i.lYzO...f+......9AW0OCvLa+T+Dt5C+QgyOGnGU+3el47C...vO....+................r+N+7C...vO...f+D..........AQTKFkFazUlbfLDakElao41Y............................+....................9CHH.fO...f+D+Qg5C.....CA.r8....9C........f+...........................BF.A7.....vBHzuO.....H.Cq6C........f+.........vO....+...............+....7C...vO....+....7C...vO....+....7C...............v967yO....+....9S..........nzakkGHWElbu41ZkIWKDIWcsAxQgQWY.....................7C........................................f+f+3l5CD.orO.....3Ab83C..........................X0eDvC.....KfP+9.....P7OrtO.........9C.........+....7C..............7C...vO....+....7C...vO....+....7C...vO................y2yO+....7C...3OA.........fRW0BQoIGc4AxRoM1ZfDlajAxTtElbkEC...............PAT3zO................................................FXOR+......BfTrO..............3Oh+nP9......DvZrO.....Pfqm8C.....w+v59.........3O...f+..OJ7i.HEvO..............vO....+....7i.HExO....+3.8n5i.lYxO....+................ffHa7y7+qrO...f+D..........JcUKDklbzkGHKk1XqARXtQFHS4VXxUlL................EPgS+.........................................3O.....Xf8H8C.....H.Rw9..............f+H9iB4C.....P.qw9......Atd1O.....D+Cq6C........f+....9C.7nvOBfT.+...............+....7C...vOBfTH+....7iCzipOBXlI+....7C................BhrwO1+tx9....9S..........nzUsPjb001bfPGZxUGHMk1Xf.kbkARL...............f+....7C..........................................f+3l5CD.orO.....3Ab83C..............9C+u0uO.....r+4k8C........f+.....PAVf0O.........9C...3O.Pbs9....7C..........TfLS8y.LynO....+....7C...vO....+HfYl7CB9n1O...f+...........y2yO+DApN4C...3OA.........fRW0BQxUWayABcnIWcfzTZiABTxUFHx................9C...vO.........................................9C9iapOP.jx9.....fGv0iO..............3O7+V+9.....v9mW1O.........9C.....EXAV+.........3O...f+..w05C...vO..........PAxL0OCvLi9....7C...vO....+....7i.lYxOH3iZ+....9C..........LeO+7S4esjO...f+D..........RkWXtAxUkMGcsLUau81auQGZfX0aiEFa................9eqG+..............................f+j+Yl6C.....CA.r8....9C........f+..............f+...........42aJ+......AneqO.....r.6Q5C........f+....9SAxLwOBfTP+...........6udD+n+I77C...vO0e839.fGE8C...vONPO59ffOp8C...............v967yO....+....9S..........H0UsPUZmgFcfDzXuU2bzk1XfrTZisF..................neB27C...................3O.........9i3OJjO...f+DA.r6S6GofO.....P.jB6C.....9mYV+....9C..........r+HP8C.....KfP+9.....f.LrtO.........9C...3O....+....7C..........T.TX7C.hqyO....+P+S35yBnvoOD.oH+....7C0e8XO................3WiO+....7C...3OA.........fTW0RQrU1XzI2afLkagIWYffTYrAG..................9y9qG0OCvLi9..............f+H9iB2C...3OCvLy9.....vP..aO...f+.........3O..............3O..........v7uVjO.....r.B86C.....Ff8s9..............f+....7C...vO...........+u0wO0e839r.Jb5C...vO....+....7iAXOxO3uQw9................L.WL7C...vO...f+D..........RcUKAM1a0MGcoMFHS4VXxUFHy0TXCsVH................5mvM+....................9C........f+D+Qg6C...3OQ..69z9QJ3C.....D.ov9.....f+25yO...f+...........6OBT+.....vBHzuO.....H.Cq6C........f+....9C...vO....+...........A.bE+.f357C...vOz+Dt9r.Jb5CAPJxO....+P8WO1C................903yO....+....9S..........H0Us7jckIGZkEFYfzVPmk1Pg......................f+3elY8S+yLwO.........................9yA5QyO.....LD.v1C...3O.........9C..............9C..........H+dS5C.....KfP+9....9C..............9C...3O....+....7C..........veih7C...vO....+....7C...vO....+....7C...vO................vObv9....7C...3O</plugin_state>
+          </preamp_effect>
+          <property id="kPropCustomIntegratedPreampPower" type="kPTBoolean">0</property>
+          <property id="kPropIOType" type="kPTInt">0</property>
+          <property id="kPropFWSynchIn" type="kPTInt">1</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropGain" type="kPTFloat">10</property>
+          <property id="kProp48VEnable" type="kPTBoolean">0</property>
+          <property id="kPropImpedance" type="kPTInt">4</property>
+          <property id="kPropLowCut" type="kPTBoolean">0</property>
+          <property id="kPropPad" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1">
+              <plugin_unique_id>4e414155</plugin_unique_id>
+              <plugin_name>UAD Pultec EQP-1A</plugin_name>
+              <plugin_state>2732.CMlaKA....fQBMDZ....A3TPAUE...P.....f.............................................................................................................................................................................fBLD..........f....D..........DUlYgUGazA....................................nO..........PUUU0O..6g9.........vO.........9C...vOA..........QgYWZjARRyEVXi0xP0Q2bfPEZx8VcmgF..........7opp5C...............f.HEzOL.BW9....9y+2QgO...f+....7S..........PTRsbTcoQWXxAxUgIWakIG........................f+b+pv5C.....AqpJ9.....f9ydwO....+v+2g4C...3O....+D..........DkTKA0RUsPUKO0RSgQWZiAxRoM1Z...............rppxOKvdz9n8GH1ympppO5+dz9L.BW7C...vOqeyL9....9C...vOA..........QI0RPsTUKT0xSszTXzk1XfLkagIWY.................9y8SlsO.....Drpp3CCvdrOGfRL+....7i.PbcO...f+....7S..........nTXislaoYVYfvTYk0BQxUWafHTcyMG.............vppJ+3+634C.........+r.6o5y9aItO..............3O....+D..........JwTKUAmbocFZzABToElauA.....................rppxO.....b+N75C...vOEfZ79b.6J7C...vO.........9C...vOA.........fRL0xUgIWakIGHBE1byABQIA.......................9SAnlnO.....Drpp3C.....9GnA+.....f+aduO...f+....7S..........nDSsLUagwFakIGHAM1a0MGcoMFHGQmb...............f+.......rpwOAqpJ9n.Kn5y+mixO...f+.........3O....+D..........JUlYlAhPgwFYo41YsrTZisFHDUVYvA............vmpppO1+739T.EN8SvpphOyeLy9P+hB6C...3O...f+....9C...vOA.........fRB0xTtElbkAhQgQG...........................qpp7CBfTxOH3iR+....7i.lYvO6edj9....7CDD.nO...f+D+Qg6S..........njPsPjb00FHR81asAxPxUmaigF....................f+r.Jb6C.....AqpJ9Xf8n8i.lY1O.....r+qm7C...3O5WT.+D..........JITKEwVYiQmboMFHGQmbfHTZzUF...................3O8eO59.fGE7ympppO5mvM+3.8n6C...3O8OyD+....9C...vOA.........fRuglaf.UXzUlbt8VKBE1byAxQoIGcnA...............9yBnvsO4W3B+.......dTxO9mYF+....7C........f+....7S..........nDTsPTZyQ2axQWYjAxQzIGHF81X0MG................f+r.Jb5C9aTnOeppp9..w06C........f+.........3OFXOB+D..........JAUKzbCHsk1XfX0aiARQQA.....................rppxO.Pbs9j+nv5CrppxOGv0C+v+ac8C...vO.........9C...vOA.........fRP0hM2.RaoMFHV81XfTTT.....................7opp5C.....3+sd97opp5S+yLqOKvdz9....7C........f+....7S..........3TYgwFHCEFbvUFarklau0hUuMVXrA.................f+......9qIpO...f+H+dK6C...3O....+.........3O....+D..........NMTKWUmbrkGHT8lakA............................3O.....f+Zh5C.....32F.+....9C...vO3+st9....9C...vOA.........fSC0BQxUWaf7DRsLTdsIVXrAxTnklakA...........7opp5C.....3uln9.qpp7i76srO.PbK+....7C........f+....7S..........HUZigVXxQFHD8FYj0hTDEC.....................vppJ+D9eq2C.........+zA5Q4C........f+L7Ct1C...3O....+D..........RQTKWklajUFdfX1axAxUgY2b..................vmpppO..............vOB.w08....7C...vO.........9C8OguOA.........vTzUlckABSkYWZtUVKMkFdfDTZxA...............7opp5C...........UUU8S..GxO..Gy9....9C........f+....7S..........LESszTZ3ARPoIGHg4FYfvza2ARQtQF.............eppp9r.IH6C.....PUUU+D.vg7i7CUpO...f+.........3O....+D..........SwTKKk1XqABUocFZzARXtQFHPUmaigVd...........rppxO7+cl9fea.7SvpphOk+ta9L.sM5C...3O.........9C...vOA.........vTL0hTkc1YgUFHPkVXt8F.......................qpp7C.....3O0E+....7SAl9xOLPI69....9S82KpO...f+....7S..........LESsHUYmcVXkABRgQG............................f+.....vBvWuOvppJ+..qB7y.z1nO....+3+WQ7C...3O....+D..........SwTKRU1YmEVYfHTXyMG........................rppxO+eNT+................veG97C........f+....9C...vOA.........vTL0xT0IlPgM2bfPTchABSu8Fb.................7opp5y.p2vO.........7C.....vOws9.....f.L7yO...f+....7S..........LESsLUchITXyMGHPEFbkIGcnklafP0avA.............f+L+il6C.D22O.....veG97iAjc0O.....r+Hf8C...3O....+D..........SwTKEElbfHTcjMG...............................3O.......w88C.....72gO+X.YW8C.....6OBX+....9C...vOA..........UnUFHGwVZzMFZfzzahAxTnIWYjQVYxA...........7opp5C...........qpp7S+65uO.........7C........f+....7C</plugin_state>
+            </insert_effect>
+            <property id="kPropPower" type="kPTBoolean">1</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1">
+              <plugin_unique_id>34304155</plugin_unique_id>
+              <plugin_name>UAD UA 1176LN Legacy</plugin_name>
+              <plugin_state>1836.CMlaKA....fQBMDZ....APCLAUE...P.....Z.............................................................................................................................................................................fALF....vZtElPZ....D....vYuIGTI4VZzARL....................................LyrO.v0K+..yL5C.Jc2OOJb88HEtd8S.....m8lbPITXyMGHLkVaoQWYxA..........................BXlO+z+LW7CBnqzOOfxZ9....8CrppxOA....b1axAkPkEFcfvTZskFco41YfXTXyQG..................L.r46y+StyO7eAT+b.JE7C........f+D....vYuIGTBUVXzABSo0VZzklamAxTr81c..................P+aWuOC.TL+X+rv5yAnTvO.........9S.....m8lbPQjb00FHSEWcgMGZ...............................Y+HfYZ7i.lY1O4GiZ+....8C...3OA....b1axAUQgMWdfbTcoQWXxA...........................j+Yt6S++JyOGvfM+LfIz7C........f+D....vYuIGTFEFcfPjb001b..............................v.LivOBPFK+..GG8C...3O...f9....9S.....m8lbPYTcrwFHC8VavIWYyMWZu4F.....................CvLa+z+LK7C9eaxO4es.+.........3OA....b1axAkQ0omd4AhPgM2b.............................HfYN8i.lIxO.H0P+b.lY5C...3O...f+D....vYuIGTGUlazwVYfHTXyMGHC8VavA....................v.LCxO...H+fepp7S+8RvO.........9S.....m8lbPcTYtQGakAxTtElbkAxPu0Fb....................9mY.+...37CBVU0OA.bS+.........3OA....b1axA0Qk4FcrUFHV81XgwFHC8VavA......................P7C...xOAnXT+z+ZA8C........f+D....vYuIGTGIWYgMWdfLkagIWY..........................P+y70O...D+ffUU8C+qN2O....+....9S.....m8lbPcTcoQWXxAxTnklakA..........................CvL.+z+RB8i9O60OF.SH+.........3OA....b1axA0Q0kFcgIGHS8FauABUg0VYxA...................L.yL7i.lIxO.H0P+7+Ox7C...nO...f+D....vYuIGTHEVZxkGHDIWcsMG...............................0O9mYG+HfYl8y.LyzO...f+....9S.....m8lbP0TXp8lbfX0aiEFafvTZskFckIG.................9mYZ+L.yP7i.B1xO6ekG+....9CrppxOA....b1axAETkE1ZfLjb041XnUlb.........................3elo7i.lYxOGHqS+jeg+7C...nO...f+D....vYuIGTPUWavklamA................................P+yrxO3OCC+3+sx4iAn8xO.........9S.....m8lbPIEZ4QGZsAxQ0kFcgIWKSwVZmgFcfLzasA.............H+...P7y.dIzOHftR+....5C...3OA....b1axA0TkYWYxUFHDIWcsAxTwUWXygF......................9yAXluOBXlY+jeLp8C...zO...f+D....vYuIGTS4VXxUFHCIWXisF...........................vAXFsO5GMN+Xf7.7C9MN1O.........9S.....m8lbPMEckIWYuABQxUWafzTZ3AxTwUWXygF................Y+HfYZ7i.lY1O4GiZ+....8C...3OA....b1axAEU28FHBUGcz8lafLUb0k1bnA.......................9i.lovOBXlY+L.yL8C...3O...f+D....vYuIGTV81XgwFHLkVaoQWYxA........................P+yLyO...D+n+kP8S96tyO....+....9S.....m8lbPcUZjUFHOAWYtA..............................8OyX+...n6y7mOoOBvoX+....5C...3O</plugin_state>
+            </insert_effect>
+            <property id="kPropPower" type="kPTBoolean">1</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="2" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">12</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="3" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">13</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="4" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">14</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="5" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">15</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="6" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">20</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="7" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">21</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="8" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">22</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="9" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">3</property>
+          <property id="kPropFWSynchIn" type="kPTInt">23</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="10" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">2</property>
+          <property id="kPropFWSynchIn" type="kPTInt">8</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">-1</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">1</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropSRCActive" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="11" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">2</property>
+          <property id="kPropFWSynchIn" type="kPTInt">9</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropSRCActive" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="12" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">24</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">-0.0359802</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0.0046875</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="13" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">25</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0.00292969</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="14" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">26</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="15" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">27</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="16" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">28</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">0</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="17" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">29</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">0</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="18" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">30</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">0</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="19" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">7</property>
+          <property id="kPropFWSynchIn" type="kPTInt">31</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">0</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="20" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">13</property>
+          <property id="kPropFWSynchIn" type="kPTInt">2</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">-6</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-6</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-6</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-6</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-6</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropGain" type="kPTFloat">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kInput" relative_index="21" version="3">
+          <property id="kPropName" type="kPTString">Input</property>
+          <property id="kPropIOType" type="kPTInt">12</property>
+          <property id="kPropFWSynchIn" type="kPTInt">3</property>
+          <property id="kPropStereo" type="kPTBoolean">0</property>
+          <property id="kPropPhaseInvert" type="kPTBoolean">0</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropSolo" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">-144</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">0</property>
+          <property id="kPropASIOSendPreInsert" type="kPTBoolean">0</property>
+          <property id="kPropCRPanPosition" type="kPTFloat">0</property>
+          <property id="kPropCRPanPosition2" type="kPTFloat">0</property>
+          <property id="kPropHP1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP3PanPosition" type="kPTFloat">0</property>
+          <property id="kPropHP4PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux2PanPosition" type="kPTFloat">0</property>
+          <property id="kPropAux1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropAux1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropAux2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropDelayCompGroup" type="kPTInt">0</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kAuxBus" relative_index="0" version="2">
+          <property id="kPropName" type="kPTString">AUX 1</property>
+          <property id="kPropFWSynchIn" type="kPTInt">16</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+          <property id="kPropMute" type="kPTBoolean">1</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEffectInputFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropMixToMono" type="kPTBoolean">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1">
+              <plugin_unique_id>4e394155</plugin_unique_id>
+              <plugin_name>UAD Lexicon 224</plugin_name>
+              <plugin_state>4528.CMlaKA....fQBMDZ....A3TNAUE...P.....f.............................................................................................................................................................................PDPH..........f........9i..........PTYlEVcrQG....................................H+....7C...qO...H9...f8SB7mpO........f6C........f+.........vO...f+TKhH1C........f+PIhH5C...vO....+....7C...vO...f+....9C...3OB.........vRkYWZtAxRowFak4VKV8Fdf.EagQWY.................3y.r+vOPP.r9D.9u5C..f2O.....H.tc8SAf+aO.........9C.....Sfac9....9SsHhXO.........9CkHhnO....+....7C...vO....+....9C...3O...f+H..........KsTKPUlbiU2byk1atABTrEFckA....................vO...f+3.ne6C...3O................HH.E+.........3O.........7C...3O0hHh8.........3OThHh9....5C...nOEnON+Tf937C...3O...f+....9i..........rzRsDDcs81bvgVYxUF............................H+....7CB.31O...P8...D7CB.H1Os.6o8...f6C...3O...f+.....fAXOxO...f+TKhH1C........f+PIhH5C...vO....+....7C...vO...f+....9C...3OB.........PQxk1XfPEZuImamIWYt0xUoQVYxA...................8C.....LD.v7...H6CB.X2O3+ep9.........rO....................+....9SsHhXO0hHh8......kHhnO....+....7C...vO....+....9C...3O...f+H..........EQUKMUFdoM1atAxTtElbkABTrEFckA................vO...X9HB.H4SD.PnO...f+..............f+....................7C...3O0hHh8.........3O...f+....7C...vO....+....7C...3O...f+....9i..........TDUszTY3k1Xu4FHS4VXxUFHR81asA.................P+...P3yP..cOh..F9f..l8C...kO.........9C...................vO...f+PIhH5SsHhXO...f+Ld2c8C...vO....+....7C...vO...f+....9C...3OB..........QgYWZjARRyEVXi0hPgwFagQFHV81XgwF..............3SD.PuO...E+...P5C...uO..............dO................T.TX9....9y3c20O.........9CkHhnO....+....7C...vO....+....9C...3O...f+H..........DkTKAABSoQGcrUFHBkFcf7jYffTXrwF.................H.fB+DA.z6CB.XvO...b+DA.D5C...PO...n9................jCzi1C...3O...f+.........3OxgHB9....7C...vO....+....7C........f+....9i..........PTRsPjb00FHR81asA.............................P+...v5SD.vnO...A+....8SB7mpO.........6C..............9yBrGsO...f+jt6t8SsHhXO.....PIhH5C...vO....+....7C...vO...f+....9C...3OB..........QI0RSgImcfLzatcVXf.EagQWY.....................7C..ftO...99...f7CB.3xOh..Z9........PwO.........9C.....F.gK9....9SsHhXO.........9CkHhnO....+....7C...vO....+....9C...3O...f+H..........DkTKLklamUlbo41YffTXrwF.......................nOH.fB+f..57C...yOH.f.+...P5C........P8..............f+LAt04C...3OThHh9.........3OZlYF+....7C...vO....+....7C........f+....9i..........PTRsH0au0FHz.xQx81czgF........................H+...T7SD.PrOQ..w9f..F8C...kO........f6C...............fAP3pO...f+.qpp7C........f+PIhH5C...vO....+....7C...vO.........9C...3OB..........QI0RSoQlaocFZzABTrEFckA......................f8CB.HxO...v9f..B7C..f2OH.fK+.........wO................IP0q9....9SyLyjO....................+....7C...vO....+....9C...3O...f+H..........EwVZfnTXt4VY40hPocFH3.ybfLkagIWY..............xO...b9...n5C...hO...A+..............39.........3O...f+L.yL6C...3O0hHh8...........ThHh9....7C...vO....+....7C........f+....9i..........TjRsjjajkVYfPjb00FHR81asA.....................P+HB.X3C..fuO...l9f..x8CB.nwO.........6C........f+....9y.LyvO...f+TKhH1SsHhXO...f+PIhH5C...vO....+....7C...vO...f+....9C...3OB.........PQJ0BUnk1XqUlbfX0aiABTrEFckA...................7SD.PoO...v9...P5C..f2OH.fK+...P6C...3O.........9C.....NPOp9....9SsHhXO.........9CkHhnO....+....7C...vO....+....9C...3O...f+H..........EoTKBI2ausFa44FHBY0b..........................fO...p9...X7SD.vqOH.fa+.....PD.PqO...38.........3O.....bA1i3C...3OMyLS9HGhH3C...3OThHh9....7C...vO....+....7C...3O...f+....9i..........TjRsLUau8FcnAhUuMVXrABRgwFa...................f9...H7CB.HwOh..Z9...T8SD.voO...P8..............f+....9yAb8nO...f+TKhH1C........f+PIhH5C...vO....+....7C...vO.........9C...3OB.........PQJ0RSoQFUk0FbuAxTtElbkAhTu8Va.................8yP..eO...n9HB.H4C..fpOH.fZ+........fsO.........9C...3O....+....9SsHhXO0hHh8....9CkHhnO....+....7C...vO....+....9C...3O...f+H..........EoTKHUVX1kGHEMFZuA............................1O.........5C...hO...X+j.+o5SD.PrO...R+.........3O.........5C...3OZlYF+....................7C...vO....+....7C...3O...f+....9i..........TjRsTzXn8FHR8lXuAhUuMF........................v9...v6C...xO...j9...f8C.....H.fN+..............f+.....fCvLqO...f+TKhH1C...3O...f+PIhH5C...vO....+....7C...vO...f+....9C...3OB.........vPnU2XqAhV2k1XqkWKLklckAhTu8Va.................8C.....L.6q93AFf3iAX+nOCXBH+j.vO3SDP9mO.........9C.....FvDt9....9SsHhXO...........kHhnO....+....7C...vO....+....9C...3O...f+H..........CoUKLU2bnABToElauA............................xO...E+D.+W8C..vwOH.fO+f..F8C.....L.6q9.........3O.....b.lY5C...3O0hHh8.........3OThHh9....7C...vO....+....7C...3O...f+....9i..........LjVsDzXuU2bzk1XfL0ar8FHCgVXsIVYxA.............v9LCb.2i.p.wObfB.9H.827yAnTvO.....D.9m5C........f+.....v.LyrO...f+nu6t6i9t6tO.....PIhH5C...vO....+....7C...vO...f+....9C...3OB.........vPZ0hUuMVXrAxTrEFb.............................9y.l.vOCXB.+T.3+6CCv9uO......AyQ6SB.+tO.........9C.....CvLy9....9C.....0hHh8......kHhnO....+....7C...vO....+....9C...3O...f+H..........CoUKS4VXxUFHPwVXzUF...........................1O.....DAj+4CCv9qOD35O+D.L96yMfOcOAvF59.........3O.....3.8n5C...3O................ThHh9....7C...vO....+....7C...3O...f+....9i..........LjVsjCLyAhPocFHKk1XqA..........................+....6iH.fhOFB.X8HB.34SD.PnOH.f.+...X8C........f+.........vO...f+................PIhH5C...vO....+....7C...vO...f+....9C...3OB.........vPZ0BQxUWafLjb041XnAhTu8Va.....................8C.....................BfhU+HB.n3CBBPvO.........9C.....Kvdz9....9C................kHhnO....+....7C...vO....+....9C...3O...f+H..........CoUKV81XgwFHWkFYkAxPn8lb0MG...................3OCXB.+TfF.8SAZ.zOBP+E+.....vKvrXOL.6G9.........3O.........7C...3Oeppp9nu6t6C.....ThHh9....7C...vO....+....7C...3O...f+....9i..........LjVsjjafPGZkAhag0VYf7lYfvTY3A..................+LAf+2S.x.vOFf869....9C...3O.........9C........f+.....vAjDuO...f+TKhH1C..........PIhH5C...vO....+....7C...vO...f+....9C...3OB.........vPZ0xTn81XqABcnUFHT8VayA.......................7C...nO....+j.vO5SAZfyOLfk19H.tI6i.v+wO.........9C.....CvLy9....9SsHhXO...........kHhnO....+....7C...vO....+....9C...3O...f+.</plugin_state>
+            </insert_effect>
+            <property id="kPropPower" type="kPTBoolean">1</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kAuxBus" relative_index="1" version="2">
+          <property id="kPropName" type="kPTString">AUX 2</property>
+          <property id="kPropFWSynchIn" type="kPTInt">18</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+          <property id="kPropMute" type="kPTBoolean">0</property>
+          <property id="kPropHP1SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP2SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP3SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP4SendLevel" type="kPTFloat">-144</property>
+          <property id="kPropHP1Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP2Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP3Bypass" type="kPTBoolean">0</property>
+          <property id="kPropHP4Bypass" type="kPTBoolean">0</property>
+          <property id="kPropFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropEffectInputFaderLevel" type="kPTFloat">0</property>
+          <property id="kPropMixToMono" type="kPTBoolean">0</property>
+          <property id="kPropEnabledByUser" type="kPTBoolean">1</property>
+          <mixer_object type="kEffect" relative_index="0" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="1" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="2" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+          <mixer_object type="kEffect" relative_index="3" version="1">
+            <property id="kPropName" type="kPTString">Effect</property>
+            <insert_effect version="1"/>
+            <property id="kPropPower" type="kPTBoolean">0</property>
+          </mixer_object>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="0" version="1">
+          <property id="kPropName" type="kPTString">HP</property>
+          <property id="kPropIOType" type="kPTInt">5</property>
+          <property id="kPropSynchOut" type="kPTInt">2</property>
+          <property id="kPropSynchOut2" type="kPTInt">3</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="1" version="1">
+          <property id="kPropName" type="kPTString">LINE 3/4</property>
+          <property id="kPropIOType" type="kPTInt">5</property>
+          <property id="kPropSynchOut" type="kPTInt">4</property>
+          <property id="kPropSynchOut2" type="kPTInt">5</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="2" version="1">
+          <property id="kPropName" type="kPTString">CUE 3</property>
+          <property id="kPropIOType" type="kPTInt">5</property>
+          <property id="kPropSynchOut" type="kPTInt">24</property>
+          <property id="kPropSynchOut2" type="kPTInt">25</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="3" version="1">
+          <property id="kPropName" type="kPTString">CUE 4</property>
+          <property id="kPropIOType" type="kPTInt">5</property>
+          <property id="kPropSynchOut" type="kPTInt">26</property>
+          <property id="kPropSynchOut2" type="kPTInt">27</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="4" version="1">
+          <property id="kPropName" type="kPTString">MONITOR</property>
+          <property id="kPropIOType" type="kPTInt">6</property>
+          <property id="kPropSynchOut" type="kPTInt">0</property>
+          <property id="kPropSynchOut2" type="kPTInt">1</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="5" version="1">
+          <property id="kPropName" type="kPTString">HP</property>
+          <property id="kPropIOType" type="kPTInt">4</property>
+          <property id="kPropSynchOut" type="kPTInt">28</property>
+          <property id="kPropSynchOut2" type="kPTInt">29</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+        <mixer_object type="kOutput" relative_index="6" version="1">
+          <property id="kPropName" type="kPTString">LINE 3/4</property>
+          <property id="kPropIOType" type="kPTInt">4</property>
+          <property id="kPropSynchOut" type="kPTInt">30</property>
+          <property id="kPropSynchOut2" type="kPTInt">31</property>
+          <property id="kPropStereo" type="kPTBoolean">1</property>
+        </mixer_object>
+      </mixer_object>
+    </mixer_object>
+  </mixer_tree>
+</uad_mixer_session>

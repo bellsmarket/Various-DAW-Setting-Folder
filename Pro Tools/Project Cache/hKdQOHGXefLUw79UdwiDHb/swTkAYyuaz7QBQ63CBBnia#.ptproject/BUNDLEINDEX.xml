@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bundle xmlns:cpl="http://www.smpte-ra.org/schemas/429-7/2006/PL_" xmlns:dcml="dcmlTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schemas/pxf-bundle.xsd">
+
+  <Id>urn:uuid:c1513c4e-0cf7-4c78-b6ac-e78736528a78</Id>
+
+  <AnnotationText>BellsmarketMakeProject</AnnotationText>
+
+  <Creator>Avid PXF SDK 2.1</Creator>
+
+  <DataModelVersion>2.0</DataModelVersion>
+
+  <IssueDate>2019-11-23T12:35:00+00:00</IssueDate>
+
+  <VersionList>
+    <Version>
+      <Id>urn:uuid:69f0a8b4-6493-4009-a1f5-283ff28d24bd</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:5cabc1df-38c8-4dc8-9048-bacfea712824</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+    <Version>
+      <Id>urn:uuid:245394cb-7123-48e8-80a4-697d6ca6ad77</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:1370b884-1245-494b-b2df-aed28aeaa7a1</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+    <Version>
+      <Id>urn:uuid:a8715c5f-1714-4b08-b0ba-336c63c689df</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:21e99b45-f1b5-4e75-8368-2a7a12666d8b</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+    <Version>
+      <Id>urn:uuid:f89cd00b-9ef3-4490-a550-15e9cb96825f</Id>
+      <AssetList>
+        <Asset>
+          <Id>urn:uuid:f2051122-abc2-4b9f-8326-15bb0d0d9243</Id>
+        </Asset>
+      </AssetList>
+    </Version>
+  </VersionList>
+
+  <AssetLinks>
+    <Asset>
+      <Id>urn:uuid:5cabc1df-38c8-4dc8-9048-bacfea712824</Id>
+      <ReferencedAssetId>urn:uuid:c8f0a47e-0b91-488e-b59d-25965967f919</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:8805cea6-cd8a-4557-a089-ed0dd9d79e7f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:a7534717-3136-4026-8dc8-3b5a825329b4</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:eedbd8c8-a2af-4b99-acbc-5bb25d943f0f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:ff16c542-d3d7-4de0-a894-4ff92bf7ce1e</ReferencedAssetId>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:1370b884-1245-494b-b2df-aed28aeaa7a1</Id>
+      <ReferencedAssetId>urn:uuid:ff16c542-d3d7-4de0-a894-4ff92bf7ce1e</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:c8f0a47e-0b91-488e-b59d-25965967f919</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:8805cea6-cd8a-4557-a089-ed0dd9d79e7f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:eedbd8c8-a2af-4b99-acbc-5bb25d943f0f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:a7534717-3136-4026-8dc8-3b5a825329b4</ReferencedAssetId>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:21e99b45-f1b5-4e75-8368-2a7a12666d8b</Id>
+      <ReferencedAssetId>urn:uuid:a7534717-3136-4026-8dc8-3b5a825329b4</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:8805cea6-cd8a-4557-a089-ed0dd9d79e7f</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:c8f0a47e-0b91-488e-b59d-25965967f919</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:ff16c542-d3d7-4de0-a894-4ff92bf7ce1e</ReferencedAssetId>
+      <ReferencedAssetId>urn:uuid:eedbd8c8-a2af-4b99-acbc-5bb25d943f0f</ReferencedAssetId>
+    </Asset>
+  </AssetLinks>
+
+</Bundle>

@@ -1,0 +1,11 @@
+<root active="false" stereo="false" effect="Comp VCA" presetName="">
+    <VValue name="Active" type="string" value="Off" />
+    <VValue name="Attack" type="string" value="1.00 ms" />
+    <VValue name="Release" type="string" value="100 ms" />
+    <VValue name="Threshold" type="string" value="-20.0 dB" />
+    <VValue name="InGain" type="string" value="0.0 dB" />
+    <VValue name="OutGain" type="string" value="0.0 dB" />
+    <VValue name="Wet Mix" type="string" value="100 %" />
+    <VValue name="Ratio" type="string" value="4.00 " />
+    <VValue name="Sidechain" type="string" value="off" />
+</root>

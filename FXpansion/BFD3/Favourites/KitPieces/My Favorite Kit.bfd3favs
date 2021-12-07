@@ -1,0 +1,27 @@
+<root>
+    <VObjectArray name="Preset"/>
+    <VObjectArray name="Kit"/>
+    <VObjectArray name="KitPiece">
+        <VString>Ludwig Hammered Supraphonic Snare</VString>
+        <VString>Gretsch Purple Kick</VString>
+        <VString>JSD Kit 3 Kick</VString>
+        <VString>Tama Bell Brass Snare</VString>
+        <VString>Mapleworks Custom Snare 14 Stick SnOn</VString>
+        <VString>Bosphorus Hihat Stick</VString>
+        <VString>DW Mardi Gras Sparkle Kick 1</VString>
+        <VString>DW Mardi Gras Sparkle Kick 2</VString>
+        <VString>DW Mardi Gras Sparkle Kick 2 (Tighter)</VString>
+        <VString>JSD Kit 1 Kick</VString>
+        <VString>DLX Gretsch Tom Hi</VString>
+        <VString>DLX Gretsch Tom Mid</VString>
+        <VString>DLX Gretsch Tom Floor</VString>
+        <VString>JSD Kit 3 Snare</VString>
+        <VString>Ludwig Stainless Steel Floor Tom</VString>
+        <VString>Ludwig Stainless Steel Mid Tom</VString>
+        <VString>Ludwig Stainless Steel High Tom</VString>
+        <VString>LudwigB Cym1</VString>
+        <VString>Zildjian New Beats-Mastersound Hihat</VString>
+    </VObjectArray>
+    <VObjectArray name="Bundle"/>
+    <VObjectArray name="Groove"/>
+</root>

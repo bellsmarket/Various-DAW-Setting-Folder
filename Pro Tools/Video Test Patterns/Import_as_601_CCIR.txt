@@ -1,0 +1,1 @@
+The files in this directory have video levels set by the 601 (CCIR) specification.  When importing any of these files, the import tool should be set at 601 (CCIR) levels.For more information, see "Importing Color Bars and Other Test Patterns" in the User's Guide.

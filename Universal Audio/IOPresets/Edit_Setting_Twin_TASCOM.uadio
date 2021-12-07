@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kPropDriverIOMap version="1">
+  <kPropDriverIOMapInput>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="UAD1" channelType="MicLineHiZ"
+                channel="1"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="UAD 2" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="UAD 3" channelType="MicLine"
+                channel="3"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="UAD 4" channelType="MicLine"
+                channel="4"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="UAD 5" channelType="MicLineHiZ"
+                channel="1"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="UAD 6" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="UAD 7" channelType="MicLine"
+                channel="3"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="UAD 8" channelType="MicLine"
+                channel="4"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="TASCOM 9" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="TASCOM 10" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="TASCOM 11" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="155452638" hwType="Apollo" name="TASCOM 12" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="Twin 1" channelType="MicLineHiZ"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="Twin 2" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 7" channelType="Virtual"
+                channel="7"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 8" channelType="Virtual"
+                channel="8"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="C ADAT 1" channelType="ADAT"
+                channel="1"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="C ADAT 2" channelType="ADAT"
+                channel="2"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="C ADAT 3" channelType="ADAT"
+                channel="3"/>
+    <IOMapEntry hwID="523792202" hwType="Apollo Twin MkII" name="C ADAT 4" channelType="ADAT"
+                channel="4"/>
+    <IOMapEntry hwID="0" hwType="" name="None (4)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (3)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (5)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (6)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (2)" channelType="Unknown" channel="0"/>
+  </kPropDriverIOMapInput>
+  <kPropDriverIOMapOutput>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 7" channelType="Virtual"
+                channel="7"/>
+    <IOMapEntry hwID="194322385" hwType="Apollo" name="A VIRTUAL 8" channelType="Virtual"
+                channel="8"/>
+    <IOMapEntry hwID="0" hwType="" name="None (18)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (19)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (20)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (21)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (22)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (3)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (4)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (5)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (2)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (6)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (7)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (8)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (9)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (10)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (11)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (12)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (13)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (14)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (15)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (16)" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="None (17)" channelType="Unknown" channel="0"/>
+  </kPropDriverIOMapOutput>
+</kPropDriverIOMap>

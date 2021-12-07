@@ -1,0 +1,25 @@
+Path
+Macintosh HD/ユーザ/<ユーザ名>/ライブラリ/Preferences/Avid/Pro Tools/Pro Tools Prefs
+
+Description
+Protools 初期設定・トラックカラー・プラグインショートカット登録を一括管理しているファイル。
+リセットされた場合には上記のパスのコピーすること。
+
+bash
+cp -i ${HOME}/Dropbox/Various\ DAW\ Setting\ Folder/Pro\ Tools/BackUp\ PlugIn\ Short\ Cut/Pro\ Tools\ Prefs Library/Preferences/Avid/Pro\ Tools/
+
+
+現在の設定をDropboxにバックアップしたい場合
+cp -i Library/Preferences/Avid/Pro\ Tools/Pro\ Tools\ Prefs ${HOME}/Dropbox/Various\ DAW\ Setting\ Folder/Pro\ Tools/BackUp\ PlugIn\ Short\ Cut/Pro\ Tools\ Prefs
+
+
+
+
+
+bellsProtools アカウント
+cp -i ${HOME}/Dropbox/Various\ DAW\ Setting\ Folder/Pro\ Tools/BackUp\ PlugIn\ Short\ Cut/Pro\ Tools\ Prefs Library/Preferences/Avid/Pro\ Tools/
+
+
+Portools UAD シンボリックリンク作成
+ln -s ${HOME}/Dropbox/Various\ DAW\ Setting\ Folder/Pro\ Tools ${HOME}/Documents/Pro\ Tools
+ln -s ${HOME}/Dropbox/Various\ DAW\ Setting\ Folder/Universal\ Audio ${HOME}/Documents/Universal\ Audio

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kPropDriverIOMap>
+  <kPropDriverIOMapInput>
+    <IOMapEntry hwID="0" hwType="" name="NULL 1" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="NULL 2" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MIC/LINE/HIZ 1" channelType="MicLineHiZ"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MIC/LINE/HIZ 2" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MIC/LINE 3" channelType="MicLine"
+                channel="3"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MIC/LINE 4" channelType="MicLine"
+                channel="4"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 1" channelType="ADAT"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 2" channelType="ADAT"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 3" channelType="ADAT"
+                channel="3"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 4" channelType="ADAT"
+                channel="4"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 5" channelType="ADAT"
+                channel="5"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 6" channelType="ADAT"
+                channel="6"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 7" channelType="ADAT"
+                channel="7"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 8" channelType="ADAT"
+                channel="8"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A S/PDIF L" channelType="SPDIF"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A S/PDIF R" channelType="SPDIF"
+                channel="2"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B MIC/LINE/HIZ 1" channelType="MicLineHiZ"
+                channel="1"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B MIC/LINE/HIZ 2" channelType="MicLineHiZ"
+                channel="2"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B MIC/LINE 3" channelType="MicLine"
+                channel="3"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B MIC/LINE 4" channelType="MicLine"
+                channel="4"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B S/PDIF L" channelType="SPDIF"
+                channel="1"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B S/PDIF R" channelType="SPDIF"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A AUX1 L" channelType="Aux"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A AUX1 R" channelType="Aux"
+                channel="2"/>
+  </kPropDriverIOMapInput>
+  <kPropDriverIOMapOutput>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 1" channelType="Line"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 2" channelType="Line"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 3" channelType="Line"
+                channel="3"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 4" channelType="Line"
+                channel="4"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 1" channelType="ADAT"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 2" channelType="ADAT"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 3" channelType="ADAT"
+                channel="3"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 4" channelType="ADAT"
+                channel="4"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 5" channelType="ADAT"
+                channel="5"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 6" channelType="ADAT"
+                channel="6"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 7" channelType="ADAT"
+                channel="7"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A ADAT 8" channelType="ADAT"
+                channel="8"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A S/PDIF L" channelType="SPDIF"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A S/PDIF R" channelType="SPDIF"
+                channel="2"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 1" channelType="Line"
+                channel="1"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 2" channelType="Line"
+                channel="2"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 3" channelType="Line"
+                channel="3"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 4" channelType="Line"
+                channel="4"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B S/PDIF L" channelType="SPDIF"
+                channel="1"/>
+    <IOMapEntry hwID="135924995" hwType="Apollo" name="B S/PDIF R" channelType="SPDIF"
+                channel="2"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A CUE1 L" channelType="Cue"
+                channel="1"/>
+    <IOMapEntry hwID="53925726" hwType="Apollo" name="A CUE1 R" channelType="Cue"
+                channel="2"/>
+  </kPropDriverIOMapOutput>
+</kPropDriverIOMap>

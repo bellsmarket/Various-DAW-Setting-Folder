@@ -1,0 +1,4 @@
+<root active="true" stereo="false" effect="Gain" presetName="default">
+    <VValue name="Active" type="string" value="On" />
+    <VValue name="Gain" type="string" value="0.0 dB" />
+</root>

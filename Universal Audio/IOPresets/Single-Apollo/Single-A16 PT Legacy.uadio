@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kPropDriverIOMap>
+  <kPropDriverIOMapInput>
+    <IOMapEntry hwID="0" hwType="" name="NULL1" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="0" hwType="" name="NULL2" channelType="Unknown" channel="0"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 1" channelType="Line"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 2" channelType="Line"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 3" channelType="Line"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 4" channelType="Line"
+                channel="4"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 9" channelType="Line"
+                channel="9"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 10" channelType="Line"
+                channel="10"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 11" channelType="Line"
+                channel="11"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 12" channelType="Line"
+                channel="12"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 13" channelType="Line"
+                channel="13"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 14" channelType="Line"
+                channel="14"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 15" channelType="Line"
+                channel="15"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 16" channelType="Line"
+                channel="16"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AES/EBU L" channelType="AESEBU"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AES/EBU R" channelType="AESEBU"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRTUAL 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AUX1 L" channelType="Aux"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AUX1 R" channelType="Aux"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AUX2 L" channelType="Aux"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AUX2 R" channelType="Aux"
+                channel="4"/>
+  </kPropDriverIOMapInput>
+  <kPropDriverIOMapOutput>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="MON L" channelType="Mon"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="MON R" channelType="Mon"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 1" channelType="Line"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 2" channelType="Line"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 3" channelType="Line"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 4" channelType="Line"
+                channel="4"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 5" channelType="Line"
+                channel="5"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 6" channelType="Line"
+                channel="6"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 7" channelType="Line"
+                channel="7"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 8" channelType="Line"
+                channel="8"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 9" channelType="Line"
+                channel="9"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 10" channelType="Line"
+                channel="10"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 11" channelType="Line"
+                channel="11"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 12" channelType="Line"
+                channel="12"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 13" channelType="Line"
+                channel="13"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 14" channelType="Line"
+                channel="14"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 15" channelType="Line"
+                channel="15"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="LINE 16" channelType="Line"
+                channel="16"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AES/EBU L" channelType="AESEBU"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="AES/EBU R" channelType="AESEBU"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 1" channelType="Virtual"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 2" channelType="Virtual"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 3" channelType="Virtual"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 4" channelType="Virtual"
+                channel="4"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 5" channelType="Virtual"
+                channel="5"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 6" channelType="Virtual"
+                channel="6"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 7" channelType="Virtual"
+                channel="7"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="VIRT 8" channelType="Virtual"
+                channel="8"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="CUE1 L" channelType="Cue"
+                channel="1"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="CUE1 R" channelType="Cue"
+                channel="2"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="CUE2 L" channelType="Cue"
+                channel="3"/>
+    <IOMapEntry hwID="135925186" hwType="Apollo 16" name="CUE2 R" channelType="Cue"
+                channel="4"/>
+  </kPropDriverIOMapOutput>
+</kPropDriverIOMap>

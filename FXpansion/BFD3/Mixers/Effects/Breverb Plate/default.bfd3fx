@@ -1,0 +1,11 @@
+<root active="true" stereo="true" effect="Breverb Plate" presetName="default">
+    <VValue name="Active" type="string" value="1.000000" />
+    <VValue name="Mix" type="string" value="0.500000" />
+    <VValue name="Time" type="string" value="0.499499" />
+    <VValue name="Predelay" type="string" value="0.000000" />
+    <VValue name="Diffusion" type="string" value="0.150000" />
+    <VValue name="Low" type="string" value="0.500000" />
+    <VValue name="High" type="string" value="0.500000" />
+    <VValue name="Size" type="string" value="0.500000" />
+    <VValue name="Shape" type="string" value="0.500000" />
+</root>

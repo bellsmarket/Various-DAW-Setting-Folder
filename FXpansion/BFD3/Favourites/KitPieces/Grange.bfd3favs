@@ -1,0 +1,10 @@
+<root>
+    <VObjectArray name="Preset"/>
+    <VObjectArray name="Kit"/>
+    <VObjectArray name="KitPiece">
+        <VString>JSD Kit 6 Crash 1</VString>
+        <VString>LudwigB Crash1</VString>
+    </VObjectArray>
+    <VObjectArray name="Bundle"/>
+    <VObjectArray name="Groove"/>
+</root>
